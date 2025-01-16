@@ -1,33 +1,32 @@
 <?php
-
 return [
     'enabled' => env('PAGE_SPEED_ENABLED', true),
 
     'html' => [
         'enable' => true,
-        'minify' => true,
+        'minify' => false,  // Enable or disable HTML minification
     ],
 
     'css' => [
         'enable' => true,
-        'minify' => true,
+        'minify' => false,  // Enable or disable CSS minification
     ],
 
     'js' => [
         'enable' => true,
-        'minify' => true,
+        'minify' => false,  // Enable or disable JS minification
     ],
 
     'images' => [
-        'enable' => true,
-    ],
-
-    'cache' => [
-        'enable' => true,
-        'max_age' => 86400,
+        'enable' => false,  // Optimize images if necessary
     ],
 
     'gzip' => [
-        'enable' => true,
+        'enable' => true,  // Enable GZIP compression
+    ],
+
+    'cache' => [
+        'enable' => true,  // Enable caching for static assets
+        'max_age' => 86400,
     ],
 ];
