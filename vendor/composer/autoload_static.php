@@ -105,6 +105,7 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         ),
         'R' => 
         array (
+            'RenatoMarinho\\LaravelPageSpeed\\' => 31,
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
@@ -401,6 +402,10 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'Sabberworm\\CSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
+        ),
+        'RenatoMarinho\\LaravelPageSpeed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -760,7 +765,6 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\APIController' => __DIR__ . '/../..' . '/app/Http/Controllers/APIController.php',
         'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
-        'App\\Http\\Controllers\\Admin\\BlogController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/BlogController.php',
         'App\\Http\\Controllers\\Admin\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CategoryController.php',
         'App\\Http\\Controllers\\Admin\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/HomeController.php',
         'App\\Http\\Controllers\\Admin\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ProductController.php',
@@ -768,7 +772,6 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\MainController' => __DIR__ . '/../..' . '/app/Http/Controllers/MainController.php',
         'App\\Http\\Controllers\\PayoutRequestController' => __DIR__ . '/../..' . '/app/Http/Controllers/PayoutRequestController.php',
-        'App\\Http\\Controllers\\ReviewController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReviewController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\AuthAdmin' => __DIR__ . '/../..' . '/app/Http/Middleware/AuthAdmin.php',
@@ -782,8 +785,6 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\Address' => __DIR__ . '/../..' . '/app/Models/Address.php',
-        'App\\Models\\Banner' => __DIR__ . '/../..' . '/app/Models/Banner.php',
-        'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
         'App\\Models\\Browser' => __DIR__ . '/../..' . '/app/Models/Browser.php',
         'App\\Models\\BuyOrder' => __DIR__ . '/../..' . '/app/Models/BuyOrder.php',
         'App\\Models\\Cart' => __DIR__ . '/../..' . '/app/Models/Cart.php',
@@ -792,7 +793,6 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'App\\Models\\OrderItem' => __DIR__ . '/../..' . '/app/Models/OrderItem.php',
         'App\\Models\\PayoutRequest' => __DIR__ . '/../..' . '/app/Models/PayoutRequest.php',
         'App\\Models\\Product' => __DIR__ . '/../..' . '/app/Models/Product.php',
-        'App\\Models\\Review' => __DIR__ . '/../..' . '/app/Models/Review.php',
         'App\\Models\\Setting' => __DIR__ . '/../..' . '/app/Models/Setting.php',
         'App\\Models\\Transaction' => __DIR__ . '/../..' . '/app/Models/Transaction.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
@@ -7456,6 +7456,17 @@ class ComposerStaticInit196c44e95d0c3122538cb5b4a8fadbaa
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Entities\\HtmlSpecs' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Entities/HtmlSpecs.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\CollapseWhitespace' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/CollapseWhitespace.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\DeferJavascript' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/DeferJavascript.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\ElideAttributes' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/ElideAttributes.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\InlineCss' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/InlineCss.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\InsertDNSPrefetch' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/InsertDNSPrefetch.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\PageSpeed' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/PageSpeed.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\RemoveComments' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/RemoveComments.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\RemoveQuotes' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/RemoveQuotes.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\TrimUrls' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/Middleware/TrimUrls.php',
+        'RenatoMarinho\\LaravelPageSpeed\\ServiceProvider' => __DIR__ . '/..' . '/renatomarinho/laravel-page-speed/src/ServiceProvider.php',
         'SQLite3Exception' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/SQLite3Exception.php',
         'Sabberworm\\CSS\\CSSList\\AtRuleBlockList' => __DIR__ . '/..' . '/sabberworm/php-css-parser/src/CSSList/AtRuleBlockList.php',
         'Sabberworm\\CSS\\CSSList\\CSSBlockList' => __DIR__ . '/..' . '/sabberworm/php-css-parser/src/CSSList/CSSBlockList.php',

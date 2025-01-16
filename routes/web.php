@@ -79,6 +79,9 @@ Route::middleware([
 }); 
 
 Route::middleware(['auth'])->group(function(){
+    
+});
+
     Route::get('/', [MainController::class, 'index'])->name('home');
     Route::get('/shop', [MainController::class, 'shop'])->name('shop');
     Route::get('/about', [MainController::class, 'about'])->name('about');
@@ -109,6 +112,3 @@ Route::middleware(['auth'])->group(function(){
     Route::delete('/cart/clear', [CartController::class, 'empty_cart'])->name('cart.clear');
     Route::get('/checkout',[CartController::class, 'checkout'])->name('checkout');
     Route::post('/place-an-order',[CartController::class, 'place_an_order'])->name('place.order'); 
-});
-
-    
