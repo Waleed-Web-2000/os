@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/skin-1.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/skin/skin-1.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/style.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
 
