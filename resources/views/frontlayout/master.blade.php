@@ -33,9 +33,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
-    <link rel="stylesheet" href="/assets/css/skin/skin-1.css" integrity="sha384-hash" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/skin/skin-1.css">
 
-    <link rel="stylesheet" href="/assets/css/style.css" integrity="sha384-hash" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
 
 
