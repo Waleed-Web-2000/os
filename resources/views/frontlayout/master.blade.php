@@ -27,14 +27,16 @@
 	
 	<!-- STYLESHEETS -->
 	<!-- STYLESHEETS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/skin-1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/skin-1.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/style.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
+
 
 
 	
@@ -62,14 +64,15 @@
 
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" defer></script>
    
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.ajax.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/custom.js?v=1.0" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.ajax.js?v=1.0" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.carousel.min.js?v=1.0" defer></script>
+
 
 
     <script>
