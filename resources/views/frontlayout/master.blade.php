@@ -27,15 +27,15 @@
 	
 	<!-- STYLESHEETS -->
 	<!-- STYLESHEETS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/skin/skin-1.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/skin/skin-1.css" integrity="sha384-hash" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/css/style.css?v=1.0" integrity="sha384-hash" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css" integrity="sha384-hash" crossorigin="anonymous">
 
 
 
