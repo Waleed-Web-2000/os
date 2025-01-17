@@ -26,20 +26,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="/assets/icons/iconly/index.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/magnific-popup/magnific-popup.min.css">	
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/nouislider/nouislider.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="/assets/vendor/lightgallery/dist/css/lightgallery.css" >
-    <link rel="stylesheet" type="text/css" href="/assets/vendor/lightgallery/dist/css/lg-thumbnail.css">
-    <link rel="stylesheet" type="text/css" href="/assets/vendor/lightgallery/dist/css/lg-zoom.css">
-    <link rel="stylesheet" type="text/css" href="/assets/vendor/slick/slick.css">
-
-	<!-- Custom Stylesheet -->
-	<link class="main-css" rel="stylesheet" type="text/css" href="/assets/css/style.css">
-	<link class="skin" type="text/css" rel="stylesheet" href="/assets/css/skin/skin-1.css">
+	<!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/skin/skin-1.css">
 	
 	<!-- GOOGLE FONTS-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,47 +58,32 @@
 	</div>
 
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="/assets/js/jquery.min.js"></script><!-- JQUERY MIN JS -->
-<script src="/assets/vendor/wow/wow.min.js"></script><!-- WOW JS -->
-<script src="/assets/vendor/bootstrap/dist//js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP MIN JS -->
-<script src="/assets/vendor/bootstrap-select/dist//js/bootstrap-select.min.js"></script><!-- BOOTSTRAP SELECT MIN JS -->
-<script src="/assets/vendor/bootstrap-touchspin/bootstrap-touchspin.js"></script><!-- BOOTSTRAP TOUCHSPIN JS -->
-<script src="/assets/vendor/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
-<script src="/assets/vendor/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
-<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script><!-- SWIPER JS -->
-<script src="/assets/vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
-<script src="/assets/vendor/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED-->
-<script src="/assets/vendor/masonry/masonry-4.2.2.js"></script><!-- MASONRY -->
-<script src="/assets/vendor/masonry/isotope.pkgd.min.js"></script><!-- ISOTOPE -->
-<script src="/assets/vendor/countdown/jquery.countdown.js"></script><!-- COUNTDOWN FUCTIONS  -->
-<script src="/assets/vendor/wnumb/wNumb.js"></script><!-- WNUMB -->
-<script src="/assets/vendor/nouislider/nouislider.min.js"></script><!-- NOUSLIDER MIN JS-->
-<script src="/assets/vendor/slick/slick.min.js"></script><!-- CAROUSEL MIN JS -->
-<script src="/assets/vendor/lightgallery/dist/lightgallery.min.js"></script>
-<script src="/assets/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
-<script src="/assets/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js"></script>
-<script src="/assets/js/dz.carousel.js"></script><!-- DZ CAROUSEL JS -->
-<script src="/assets/js/dz.ajax.js"></script><!-- AJAX -->
-<script src="/assets/js/custom.js"></script><!-- CUSTOM JS -->
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
-    const menuButton = document.getElementById('menuButton');
-    const menu = document.getElementById('menu');
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/dz.carousel.js"></script>
+    <script src="/assets/js/dz.ajax.js"></script>
+    <script src="/assets/js/custom.js"></script>
 
-    // Toggle the menu visibility
-    menuButton.addEventListener('click', (event) => {
-        event.stopPropagation();
-        menu.classList.toggle('show');
-    });
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('menuButton');
+            const menu = document.getElementById('menu');
 
-    // Close the menu when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-            menu.classList.remove('show');
-        }
-    });
-});
-</script>
-@yield ('scripts')
+            menuButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                menu.classList.toggle('show');
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+                    menu.classList.remove('show');
+                }
+            });
+        });
+    </script>
+    @yield('scripts')
 </body>
 </html>
