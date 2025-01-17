@@ -4,21 +4,21 @@ return [
 
     'html' => [
         'enable' => true,
-        'minify' => false,  // Enable or disable HTML minification
+        'minify' => true,  // Enable or disable HTML minification
     ],
 
     'css' => [
         'enable' => true,
-        'minify' => false,  // Enable or disable CSS minification
+        'minify' => true,  // Enable or disable CSS minification
     ],
 
     'js' => [
         'enable' => true,
-        'minify' => false,  // Enable or disable JS minification
+        'minify' => true,  // Enable or disable JS minification
     ],
 
     'images' => [
-        'enable' => false,  // Optimize images if necessary
+        'enable' => true,  // Optimize images if necessary
     ],
 
     'gzip' => [
