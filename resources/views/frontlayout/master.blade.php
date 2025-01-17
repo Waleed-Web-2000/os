@@ -69,9 +69,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" defer></script>
    
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/custom.js?v=1.0" defer></script>
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.ajax.js?v=1.0" defer></script>
-    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/css@main/assets/js/dz.carousel.min.js?v=1.0" defer></script>
+    <script src="/assets/js/custom.js" defer></script>
+    <script src="/assets/js/dz.ajax.js" defer></script>
+    <script src="/assets/js/dz.carousel.min.js" defer></script>
 
 
 
