@@ -32,8 +32,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/skin/skin-1.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/os@main/public/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/os@main/public/assets/css/skin-1.css">
+
+
 	
 	<!-- GOOGLE FONTS-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,9 +66,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/6.4.5/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="/assets/js/dz.carousel.js"></script>
-    <script src="/assets/js/dz.ajax.js"></script>
-    <script src="/assets/js/custom.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/os@main/public/assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/os@main/public/assets/js/dz.ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Waleed-Web-2000/os@main/public/assets/js/dz.carousel.js"></script>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
